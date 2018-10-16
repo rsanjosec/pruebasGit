@@ -23,11 +23,44 @@
             padding: 0.2rem;
         }
     </style>
+    <link rel="stylesheet" href="css/cabecera.css">
 </head>
 
 <body>
     <div id="cabecera">
-
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="img/img_lights_wide.jpg" style="width:100%">
+                <div class="text">Texto descriptivo img-1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="img/img_mountains_wide.jpg" style="width:100%">
+                <div class="text">Texto descriptivo img-2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="img/img_nature_wide.jpg" style="width:100%">
+                <div class="text">Texto descriptivo img-3</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="img/img_snow_wide.jpg" style="width:100%">
+                <div class="text">Texto descriptivo img-4</div>
+            </div>
+            <!--flechas de anterior y siguiente-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!--puntos de marcado de la imagen-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
     </div>
     <div id="cuerpo">
         <p>primer cambio</p>
@@ -54,7 +87,6 @@
     <div id="pie">
 
     </div>
-
+<script src="js/cabecera.js"></script>
 </body>
-
 </html>
