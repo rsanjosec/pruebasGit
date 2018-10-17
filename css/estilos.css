@@ -9,3 +9,4 @@ a:hover{ color: rgb(82, 80, 80)}
 .row1{ display: flex;}
 .column-izq-30{flex: 30%; padding: 6px; border:rgb(245, 210, 210) solid 1px;}
 .column-drch-70{flex: 70%; padding: 6px;  border:rgb(190, 211, 235) solid 1px;}
+.pie{position: fixed; left: 0; bottom: 0; width: 100%; background-color: red; color: white; text-align: center;}
