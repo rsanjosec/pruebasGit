@@ -1,0 +1,11 @@
+* {box-sizing: border-box;}
+
+body{ font-family: Arial, Helvetica, sans-serif; font-size: 1rem;}
+a{ color: rgb(58, 57, 57)}
+a:hover{ color: rgb(82, 80, 80)}
+
+/* para la estructura del cuerpo */
+.cuerpo-drch{ display: block; background-color: rgb(206, 204, 204); float: left;}
+.row1{ display: flex;}
+.column-izq-30{flex: 30%; padding: 6px; border:rgb(245, 210, 210) solid 1px;}
+.column-drch-70{flex: 70%; padding: 6px;  border:rgb(190, 211, 235) solid 1px;}
